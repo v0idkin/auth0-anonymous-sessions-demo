@@ -1,0 +1,10 @@
+{
+  "name": "anon-sessions-demo",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node scripts/setup-auth0.mjs"
+  }
+}
